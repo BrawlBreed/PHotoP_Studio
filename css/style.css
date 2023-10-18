@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/* registration form, login form */
+.page-heading{
+    font-size: 30px;
+    color: #D1D1D1;
+    font-weight: 400px;
+}
+
+#registration-form .form-group, #login_form .form-group{
+    position:relative;
+}
+
+#registration-form .form-group i.fa, #login_form .form-group i.fa{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: #808080;
+    font-size: 22px;
+    z-index: 9999;
+}
+
+#registration-form  .form-control, #login_form .form-control{
+    position:relative;
+    padding-left: 40px;
+}
+
+#custom-link-login{
+    text-decoration: none;
+    color: #808080;
+    transition: 0.5;
+    font-size: 14px;
+}
+
+#custom-link-login:hover{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.login_link{
+    text-decoration: none;
+    color: #C0A080;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.login_link:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #C0A080;
+    border: 1px solid #C0A080;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* menu */
+
+.nav-container{
+    padding: 0px !important;
+}
+
+.main-navigation{
+    background-color: #C0A080;
+}
+
+.custom-nav-link{
+    display: inline-block;
+    line-height: 50px;
+    min-width: 150px;
+}
+
+.custom-nav-link a, #logout_button{
+    text-decoration: none;
+    color: #EFEFEF;
+    transition: 0.5s;
+}
+
+.custom-nav-link a:hover{
+    color: #7882A4;
+    border-right: 1px solid #7882A4;
+    text-decoration: none;
+}
+
+#logout_button:hover{
+    border: none;
+    color: #7882A4;
+    text-decoration: none;
+}
